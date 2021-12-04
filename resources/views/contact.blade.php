@@ -109,53 +109,57 @@
                                 </div>
                             </div><!-- section title end -->
 
-                            <form id="ttm-contactform-2" class="ttm-contactform-2 wrap-form clearfix"
-                                  method="post" data-route="">
+                            <form id="ttm-contactform-2" class="contact-form ttm-contactform-2 wrap-form clearfix"
+                                  method="post" data-route="{{ route('contact.submit') }}">
+                                @csrf
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <label>
-                                            <span class="text-input">
-                                                <input name="name" type="text" value="" placeholder="Your Name"
-                                                       required="required"></span>
+                                        <span class="text-input">
+                                            <input name="name" type="text" value="" placeholder="Your Name"
+                                                   required="required"></span>
                                         </label>
                                     </div>
                                     <div class="col-lg-6">
                                         <label>
-                                            <span class="text-input">
-                                                <input name="address" type="text" value="" placeholder="Your Email"
-                                                       required="required"></span>
+                                        <span class="text-input">
+                                            <input name="email" type="text" value="" placeholder="Your Email"
+                                                   required="required"></span>
                                         </label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <label>
-                                            <span class="text-input">
-                                                <input name="phone" type="text" value="" placeholder="Phone Number"
-                                                       required="required"></span>
+                                        <span class="text-input">
+                                            <input name="mobile" type="tel" value="" placeholder="Phone Number">
+                                        </span>
                                         </label>
                                     </div>
                                     <div class="col-lg-6">
                                         <label>
-                                            <span class="text-input">
-                                                <input name="phone" type="text" value="" placeholder="Subject"
-                                                       required="required"></span>
+                                        <span class="text-input">
+                                            <input name="subject" type="text" value="" placeholder="Subject"
+                                                   required="required"></span>
                                         </label>
                                     </div>
                                 </div>
                                 <label>
                                     <span class="text-input">
-                                        <textarea name="message" rows="3" placeholder="Message"
+                                        <textarea name="description" rows="3" placeholder="Message"
                                                   required="required"></textarea></span>
                                 </label>
-                                <button class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" type="submit">Send Message</button>
+                                <button id="submit-contact-btn" class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" type="submit">Submit</button>
                             </form>
+                            <div id="form-message"></div>
                         </div>
                     </div>
                 </div><!-- row end -->
             </div>
         </section>
-
     </div>
+@endsection
 
+@section('bottom-assets')
+    <script src="{{ asset('js/submissions.js') }}"></script>
 @endsection

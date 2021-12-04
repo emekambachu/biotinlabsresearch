@@ -58,12 +58,14 @@
                                             <div class="title-header">
                                                 <h5>READY TO HELP</h5>
                                                 <h2 class="title">
-                                                    Let us help you get the right technician</h2>
+                                                    Let us help you get the right lab technician</h2>
                                             </div>
                                         </div><!-- section-title end -->
 
-                                        <form id="ttm-contactform-1" class="ttm-contactform-1 wrap-form clearfix"
-                                              method="post" data-route="">
+                                        <form id="ttm-contactform-1"
+                                              class="contact-form ttm-contactform-1 wrap-form clearfix"
+                                              method="post" data-route="{{ route('appointment.submit') }}">
+                                            @csrf
                                             <div class="row">
                                                 <div class="col-lg-6">
                                                     <label>
@@ -75,7 +77,7 @@
                                                 <div class="col-lg-6">
                                                     <label>
                                                     <span class="text-input">
-                                                        <input name="address" type="text" value=""
+                                                        <input name="email" type="email" value=""
                                                                placeholder="Your Email" required="required"></span>
                                                     </label>
                                                 </div>
@@ -84,25 +86,43 @@
                                                 <div class="col-lg-6">
                                                     <label>
                                                     <span class="text-input">
-                                                        <input name="phone" type="text" value=""
-                                                               placeholder="Phone Number" required="required"></span>
+                                                    <input name="mobile" type="tel" placeholder="Phone Number"></span>
                                                     </label>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <label>
                                                     <span class="text-input">
-                                                        <input name="phone" type="text" value=""
-                                                               placeholder="Subject" required="required"></span>
+                                                        <input name="subject" type="text" value="" placeholder="Subject"
+                                                               required="required">
+                                                    </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <label>
+                                                    <span class="text-input">
+                                                        <input name="date" type="date" placeholder="Date">
+                                                    </span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <label>
+                                                    <span class="text-input">
+                                                        <input name="time" type="time" placeholder="Time">
+                                                    </span>
                                                     </label>
                                                 </div>
                                             </div>
                                             <label>
                                                 <span class="text-input">
-                                                <textarea name="message" rows="5"
-                                                          placeholder="Message" required="required"></textarea></span>
+                                                <textarea name="description" rows="5" placeholder="Description"
+                                                          required="required"></textarea>
+                                                </span>
                                             </label>
-                                            <button class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" type="submit">Get An Appointment!</button>
+                                            <button id="submit-contact-btn" class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" type="submit">Submit</button>
                                         </form>
+                                        <div id="form-message"></div>
                                     </div>
                                 </div>
                             </div>
@@ -113,5 +133,8 @@
         </section>
 
     </div>
+@endsection
 
+@section('bottom-assets')
+    <script src="{{ asset('js/submissions.js') }}"></script>
 @endsection

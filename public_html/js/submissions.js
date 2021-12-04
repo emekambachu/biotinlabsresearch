@@ -1,5 +1,5 @@
 $(function(){
-    $('#contact-form').submit(function (e){
+    $('.contact-form').submit(function (e){
         e.preventDefault();
         console.log('Submitting....');
 
@@ -21,25 +21,26 @@ $(function(){
             },
             beforeSend: function () {
                 // Hide favorite button
-                $('#contact-form').prop('disabled', true);
+                $('.contact-form').prop('disabled', true);
 
                 // Show spinner
                 let loader = '<i class="fa fa-spinner fa-2x fa-spin text-white"></i>'
                 $('#submit-contact-btn').html(loader);
-                $('#submit-contact-btn').append('Loading....Please wait');
+                $('#submit-contact-btn').append(' Loading....Please wait');
             },
             success: function (response){
                 console.log(response);
 
                 if(response.success){
-                    $('#submit-contact-btn').html("Book Appointment <i class='fal fa-arrow-right ms-3'></i>");
+                    $('#submit-contact-btn').html("Submit <i class='fal fa-arrow-right ms-3'></i>");
+                    $('.contact-form').trigger("reset");
                     $('#form-message').html("<p class='p-1 bg-success text-white text-center'>"
                         +response.success +"</p>");
                 }
 
                 if(response.errors){
                     $.each(response.errors, function(key, value) {
-                        $('#submit-contact-btn').html("Book Appointment <i class='fal fa-arrow-right ms-3'></i>");
+                        $('#submit-contact-btn').html("Submit");
                         $('#form-message').html("");
                         $('#form-message').append("<p class='p-1 bg-danger text-white text-center'>"+value+"</p>");
                     });
