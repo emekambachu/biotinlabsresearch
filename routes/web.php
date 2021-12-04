@@ -32,3 +32,7 @@ Route::get('contact', function () {
 Route::get('appointment', function () {
     return view('appointment');
 });
+
+// Github Deployment
+// Must disable csrf in Http/Middleware/VerifyCsrfToken
+Route::post('github/deploy', 'GithubDeploymentController@deploy');

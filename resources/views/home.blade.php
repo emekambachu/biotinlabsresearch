@@ -629,6 +629,89 @@
         </section>
         <!--features-section end-->
 
+        <section class="ttm-row procedure-section ttm-bgcolor-grey bg-img9 ttm-bg ttm-bgimage-yes z-index_1 mt_100 res-991-mt-0 clearfix">
+            <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-sm-9 m-auto">
+                        <!-- section-title -->
+                        <div class="section-title with-sep title-style-center_text">
+                            <div class="title-header">
+                                <h5>Way We Work</h5>
+                                <h2 class="title">Our Working Process</h2>
+                            </div>
+                            <div class="title-desc">We are the team of experts and specialist for particular braches falls into research and diagnosis, ready to serve you at their best.</div>
+                        </div><!-- section-title end -->
+                    </div>
+                </div><!-- row end -->
+                <div class="row"><!-- row -->
+                    <div class="col-md-4">
+                        <!-- featured-imagebox -->
+                        <div class="featured-icon-box icon-align-top-content text-center style4">
+                            <div class="featured-icon">
+                                <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-white ttm-icon_element-size-md ttm-icon_element-style-rounded">
+                                    <i class="flaticon-lab-2"></i>
+                                    <span class="fea-number">01</span>
+                                </div>
+                            </div>
+                            <div class="featured-content">
+                                <div class="featured-title">
+                                    <h5>Data Collection</h5>
+                                </div>
+                                <div class="featured-desc">
+                                    <p>For the accurate diagnoses, perfect information is must require</p>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <img src="{{ asset('images/arrow-1.png') }}" alt="">
+                            </div>
+                        </div><!-- featured-imagebox end-->
+                    </div>
+                    <div class="col-md-4">
+                        <!-- featured-imagebox -->
+                        <div class="featured-icon-box icon-align-top-content text-center style4">
+                            <div class="featured-icon">
+                                <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-white ttm-icon_element-size-md ttm-icon_element-style-rounded">
+                                    <i class="flaticon-healthcare-and-medical-1"></i>
+                                    <span class="fea-number">02</span>
+                                </div>
+                            </div>
+                            <div class="featured-content">
+                                <div class="featured-title">
+                                    <h5>Diagnose Process</h5>
+                                </div>
+                                <div class="featured-desc">
+                                    <p>The collection goes to the particular department for the tests</p>
+                                </div>
+                            </div>
+                            <div class="arrow flip-arrow">
+                                <img src="{{ asset('images/arrow-2.png') }}" alt="">
+                            </div>
+                        </div><!-- featured-imagebox end-->
+                    </div>
+                    <div class="col-md-4">
+                        <!-- featured-imagebox -->
+                        <div class="featured-icon-box icon-align-top-content text-center style4">
+                            <div class="featured-icon">
+                                <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-white ttm-icon_element-size-md ttm-icon_element-style-rounded">
+                                    <i class="flaticon-laboratory-3"></i>
+                                    <span class="fea-number">03</span>
+                                </div>
+                            </div>
+                            <div class="featured-content">
+                                <div class="featured-title">
+                                    <h5>Access To Reports</h5>
+                                </div>
+                                <div class="featured-desc">
+                                    <p>As a result, that arrive one can access their report online or direct  </p>
+                                </div>
+                            </div>
+                        </div><!-- featured-imagebox end-->
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!--services-section-->
         <section class="ttm-row services-section ttm-bgcolor-grey bg-img5 ttm-bg ttm-bgimage-yes clearfix">
@@ -958,6 +1041,90 @@
         </section>
         <!--portfolio-section-->
 
+{{--        <section class="ttm-row broken-section-2 bg-layer bg-layer-equal-height clearfix">--}}
+{{--            <div class="container">--}}
+{{--                <!-- row -->--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-lg-7 col-md-12">--}}
+{{--                        <div class="col-bg-img-two ttm-col-bgimage-yes ttm-bg ttm-left-span">--}}
+{{--                            <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">--}}
+{{--                                <div class="ttm-col-wrapper-bg-layer-inner"></div>--}}
+{{--                            </div>--}}
+{{--                            <div class="layer-content"></div>--}}
+{{--                            <img src="{{ asset('images/bg-image/col-bgimage-2.jpg') }}"--}}
+{{--                                 class="ttm-equal-height-image" alt="bg-image">--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-lg-5 col-md-12">--}}
+{{--                        <div class="ttm-col-bgcolor-yes ttm-bgcolor-grey ttm-bg ttm-right-span spacing-3 z-index-2 res-1199-pr-15">--}}
+{{--                            <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">--}}
+{{--                                <div class="ttm-col-wrapper-bg-layer-inner"></div>--}}
+{{--                            </div>--}}
+{{--                            <div class="layer-content">--}}
+{{--                                <div class="ttm-col-bgcolor-yes ttm-bgcolor-white ttm-col-bgimage-yes col-bg-img-six ttm-bg ttm-right-span spacing-8">--}}
+{{--                                    <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">--}}
+{{--                                        <div class="ttm-col-wrapper-bg-layer-inner"></div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="layer-content">--}}
+{{--                                        <!-- section-title -->--}}
+{{--                                        <div class="section-title pr-20">--}}
+{{--                                            <div class="title-header">--}}
+{{--                                                <h5>READY TO HELP</h5>--}}
+{{--                                                <h2 class="title">--}}
+{{--                                                    Get The Right Lab technician Care Book with your Doctor</h2>--}}
+{{--                                            </div>--}}
+{{--                                        </div><!-- section-title end -->--}}
+
+{{--                                        <form id="ttm-contactform-1" class="ttm-contactform-1 wrap-form clearfix"--}}
+{{--                                              method="post" data-route="">--}}
+{{--                                            <div class="row">--}}
+{{--                                                <div class="col-lg-6">--}}
+{{--                                                    <label>--}}
+{{--                                                    <span class="text-input">--}}
+{{--                                                        <input name="name" type="text" value=""--}}
+{{--                                                               placeholder="Your Name" required="required"></span>--}}
+{{--                                                    </label>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="col-lg-6">--}}
+{{--                                                    <label>--}}
+{{--                                                    <span class="text-input">--}}
+{{--                                                        <input name="address" type="text" value=""--}}
+{{--                                                               placeholder="Your Email" required="required"></span>--}}
+{{--                                                    </label>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                            <div class="row">--}}
+{{--                                                <div class="col-lg-6">--}}
+{{--                                                    <label>--}}
+{{--                                                    <span class="text-input">--}}
+{{--                                                        <input name="phone" type="text" value=""--}}
+{{--                                                               placeholder="Phone Number" required="required"></span>--}}
+{{--                                                    </label>--}}
+{{--                                                </div>--}}
+{{--                                                <div class="col-lg-6">--}}
+{{--                                                    <label>--}}
+{{--                                                    <span class="text-input">--}}
+{{--                                                        <input name="phone" type="text" value=""--}}
+{{--                                                               placeholder="Subject" required="required"></span>--}}
+{{--                                                    </label>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                            <label>--}}
+{{--                                                <span class="text-input">--}}
+{{--                                                <textarea name="message" rows="5"--}}
+{{--                                                          placeholder="Message" required="required"></textarea></span>--}}
+{{--                                            </label>--}}
+{{--                                            <button class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" type="submit">Get An Appointment!</button>--}}
+{{--                                        </form>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div><!-- row end -->--}}
+{{--            </div>--}}
+{{--        </section>--}}
+
         <section class="ttm-row action-section ttm-bgcolor-skincolor bg-img2 ttm-bg ttm-bgimage-yes clearfix">
             <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
             <div class="container">
@@ -989,18 +1156,11 @@
                         </div>
                     </div>
                 </div><!-- row end -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="mt-40 mb_15 res-991-mt-30 text-center ttm-textcolor-white">
-                            <h6 class="font-weight-normal">We’re here for you. Call us at +441675816058 or <u><a href="#">Request a Free Consultation.</a></u></h6>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
         <!--client-section-->
-        <div class="ttm-row client-section-4 mt_70 mb_70 z-index-1 clearfix">
+        <div class="ttm-row client-section-4 mt_70 mb_70 z-index-1 clearfix pb-50">
             <div class="container">
                 <!-- row -->
                 <div class="row text-center">
@@ -1107,256 +1267,6 @@
         </div>
         <!--client-section end-->
 
-        <!--technology-section-->
-        <section class="ttm-row technology-section bg-img7 bg-layer z-index_1 clearfix">
-            <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 ml-auto">
-                        <div class="ttm-bg ttm-col-bgcolor-yes ttm-bgcolor-white spacing-7">
-                            <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
-                            <div class="layer-content">
-                                <!-- section title -->
-                                <div class="section-title">
-                                    <div class="title-header">
-                                        <h5>A GREAT Technology</h5>
-                                        <h2 class="title">We Are The Trusted Experts Lab Technician</h2>
-                                    </div>
-                                </div><!-- section title end -->
-                                <div class="accordion clearfix">
-                                    <!-- toggle -->
-                                    <div class="toggle ttm-style-classic ttm-toggle-title-bgcolor-grey ttm-control-right-true">
-                                        <div class="toggle-title"><a href="#">How should i beleive about your services?</a></div>
-                                        <div class="toggle-content">
-                                            <div class="d-sm-flex align-items-center">
-                                                <div class="toggle-figure">
-                                                    <img src="{{ asset('images/blog/blog-three-100x95.jpg') }}" alt="image">
-                                                </div>
-                                                <div class="toggle-text ml-15 res-575-ml-0 res-575-mt-10">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
-                                            </div>
-                                        </div>
-                                    </div><!-- toggle end -->
-                                    <!-- toggle -->
-                                    <div class="toggle ttm-style-classic ttm-toggle-title-bgcolor-grey ttm-control-right-true">
-                                        <div class="toggle-title"><a href="#">What are laboratory tests?</a></div>
-                                        <div class="toggle-content">
-                                            <div class="d-sm-flex align-items-center">
-                                                <div class="toggle-figure">
-                                                    <img src="{{ asset('images/blog/blog-three-100x95.jpg') }}" alt="image">
-                                                </div>
-                                                <div class="toggle-text ml-15 res-575-ml-0 res-575-mt-10">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
-                                            </div>
-                                        </div>
-                                    </div><!-- toggle end -->
-                                    <!-- toggle -->
-                                    <div class="toggle ttm-style-classic ttm-toggle-title-bgcolor-grey ttm-control-right-true">
-                                        <div class="toggle-title"><a href="#">Who performs the testing on laboratory specimens?</a></div>
-                                        <div class="toggle-content">
-                                            <div class="d-sm-flex align-items-center">
-                                                <div class="toggle-figure">
-                                                    <img src="{{ asset('images/blog/blog-three-100x95.jpg') }}" alt="image">
-                                                </div>
-                                                <div class="toggle-text ml-15 res-575-ml-0 res-575-mt-10">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
-                                            </div>
-                                        </div>
-                                    </div><!-- toggle end -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- row end -->
-            </div>
-        </section>
-        <!--technology-section end-->
-
-
-        <!--blog-section-->
-        <section class="ttm-row blog-section clearfix">
-            <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <div class="col-lg-6 col-md-8 col-sm-10 m-auto">
-                        <!-- section-title -->
-                        <div class="section-title with-sep title-style-center_text">
-                            <div class="title-header">
-                                <h5>OUR NEWS & BLOG</h5>
-                                <h2 class="title">Publish What You Think</h2>
-                            </div>
-                            <div class="title-desc">Read & get educated & knowledge over versatile laboratory technology.We how else you can help patients without being a doctor.</div>
-                        </div><!-- section-title end -->
-                    </div>
-                </div><!-- row end -->
-                <!-- slick_slider -->
-                <div class="row slick_slider ttm-boxes-spacing-0px pt-10 pb-10 pl-10 pr-10 box-shadow" data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":870,"settings":{"slidesToShow": 2}}, {"breakpoint":540,"settings":{"slidesToShow": 1}}]}'>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style2">
-                            <div class="ttm-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('images/blog/blog-one-740x504.jpg') }}" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
-                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>July 24 2109</span>
-                                </div>
-                                <div class="post-title featured-title">
-                                    <h5><a href="">Equipping Researchers Lab in the Developing.</a></h5>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Clinical laboratory tests are taken up for the branch of healthcare deals.</p>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between ttm-post-link">
-                                    <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline" href="#">Read more!</a>
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line tags-links"><i class="fa fa-comment"></i>45 Comments</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style2">
-                            <div class="featured-content featured-content-post">
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
-                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>June 28 2019</span>
-                                </div>
-                                <div class="post-title featured-title">
-                                    <h5><a href="">Do You Want To Fast Track your Lab Operations</a></h5>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Given the extremely competitive environment; So, fast track your operation.</p>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between ttm-post-link">
-                                    <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline" href="#">Read more!</a>
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line tags-links"><i class="fa fa-comment"></i>45 Comments</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ttm-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('images/blog/blog-two-740x504.jpg') }}" alt="image">
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style2">
-                            <div class="ttm-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('images/blog/blog-three-740x504.jpg') }}" alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
-                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>June 12 2019</span>
-                                </div>
-                                <div class="post-title featured-title">
-                                    <h5><a href="">Learn: Blood bank operations and management</a></h5>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Blood bank inventory management identify challenges that are peculiar to banks.</p>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between ttm-post-link">
-                                    <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline" href="#">Read more!</a>
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line tags-links"><i class="fa fa-comment"></i>45 Comments</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style2">
-                            <div class="featured-content featured-content-post">
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
-                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>May 30 2019</span>
-                                </div>
-                                <div class="post-title featured-title">
-                                    <h5><a href="">Equipping Researchers Lab in the Developing.</a></h5>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Clinical laboratory tests are taken up for the branch of healthcare deals.</p>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between ttm-post-link">
-                                    <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline" href="#">Read more!</a>
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line tags-links"><i class="fa fa-comment"></i>45 Comments</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ttm-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('images/blog/blog-four-740x504.jpg') }}"
-                                     alt="image">
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style2">
-                            <div class="ttm-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('images/blog/blog-five-740x504.jpg') }}"
-                                     alt="image">
-                            </div>
-                            <div class="featured-content featured-content-post">
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
-                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>April 16 2019</span>
-                                </div>
-                                <div class="post-title featured-title">
-                                    <h5><a href="">Do You Want To Fast Track your Lab Operations</a></h5>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Given the extremely competitive environment; So, fast track your operation.</p>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between ttm-post-link">
-                                    <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline" href="#">Read more!</a>
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line tags-links"><i class="fa fa-comment"></i>45 Comments</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                    <div class="ttm-box-col-wrapper col-lg-4">
-                        <!-- featured-imagebox-post -->
-                        <div class="featured-imagebox featured-imagebox-post style2">
-                            <div class="featured-content featured-content-post">
-                                <div class="post-meta">
-                                    <span class="ttm-meta-line"><i class="fa fa-user"></i>Admin</span>
-                                    <span class="ttm-meta-line"><i class="fa fa-calendar"></i>April 20 2019</span>
-                                </div>
-                                <div class="post-title featured-title">
-                                    <h5><a href="">Learn: Blood bank operations and management</a></h5>
-                                </div>
-                                <div class="post-desc featured-desc">
-                                    <p>Blood bank inventory management identify challenges that are peculiar to banks.</p>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between ttm-post-link">
-                                    <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline" href="#">Read more!</a>
-                                    <div class="post-meta">
-                                        <span class="ttm-meta-line tags-links"><i class="fa fa-comment"></i>45 Comments</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="ttm-post-thumbnail featured-thumbnail">
-                                <img class="img-fluid" src="{{ asset('images/blog/blog-six-740x504.jpg') }}" alt="image">
-                            </div>
-                        </div><!-- featured-imagebox-post end-->
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="mt-40 res-991-mt-30 text-center">
-                            <strong>Don’t hesitate, contact us for better help and blog. <u><a href="#">Explore all latest News.</a></u></strong>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--blog-section end-->
 
 
     </div><!--site-main end-->
