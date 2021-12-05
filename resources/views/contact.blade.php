@@ -68,7 +68,7 @@
                                         <h5>Call Us</h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>24/7 Support<br>+441675816058</p>
+                                        <p>24/7 Support<br>415 621 9486</p>
                                     </div>
                                 </div>
                             </div><!-- featured-icon-box end-->

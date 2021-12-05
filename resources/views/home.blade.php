@@ -773,7 +773,7 @@
                                                             <p>Call To Ask Any Questions</p>
                                                         </div>
                                                         <div class="featured-title">
-                                                            <h5>+441675816058</h5>
+                                                            <h5>415 621 9486</h5>
                                                         </div>
                                                     </div>
                                                 </div><!-- featured-icon-box end-->
@@ -1138,7 +1138,7 @@
                                 </div>
                                 <div class="cont-desc">
                                     <h6 class="sub-title">Best Laboratory Services</h6>
-                                    <h4 class="title">+441675816058</h4>
+                                    <h4 class="title">415 621 9486</h4>
                                 </div>
                             </div>
                         </div>

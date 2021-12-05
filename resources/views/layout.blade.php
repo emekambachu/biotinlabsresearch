@@ -63,7 +63,7 @@
                 <div class="row">
                     <div class="col-xl-12 d-flex flex-row align-items-center">
                         <div class="top_bar_contact_item"><div class="top_bar_icon">
-                                <i class="fa fa-phone"></i></div>+441675816058</div>
+                                <i class="fa fa-phone"></i></div>415 621 9486</div>
                         <div class="top_bar_contact_item"><div class="top_bar_icon"><i class="fa fa-envelope-o"></i></div><a href="mailto:inquiry@biotinlabsresearch.com">
                                 inquiry@biotinlabsresearch.com</a></div>
                         <div class="top_bar_contact_item ml-auto">
@@ -179,7 +179,7 @@
                                         <h5>Call Us On</h5>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>Front Desk: +441675816058</p>
+                                        <p>Front Desk: 415 621 9486</p>
                                     </div>
                                 </div>
                             </div><!-- featured-icon-box end-->
