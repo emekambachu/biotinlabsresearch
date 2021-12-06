@@ -87,6 +87,7 @@
                 </div>
             </div>
         </div><!-- top_bar end-->
+
         <!-- site-header-menu -->
         <div id="site-header-menu" class="site-header-menu ttm-bgcolor-white">
             <div class="site-header-menu-inner ttm-stickable-header">
@@ -110,16 +111,16 @@
                                 <!-- menu -->
                                 <nav class="main-menu menu-mobile" id="menu">
                                     <ul class="menu">
-                                        <li class="mega-menu-item">
+                                        <li class="">
                                             <a href="{{ url('/') }}" class="mega-menu-link">Home</a>
                                         </li>
-                                        <li class="mega-menu-item">
+                                        <li class="">
                                             <a href="{{ url('about') }}" class="mega-menu-link">About</a>
                                         </li>
-                                        <li class="mega-menu-item">
+                                        <li class="">
                                             <a href="{{ url('services') }}" class="mega-menu-link">Services</a>
                                         </li>
-                                        <li class="mega-menu-item">
+                                        <li class="">
                                             <a href="{{ url('contact') }}" class="mega-menu-link">Contact</a>
                                         </li>
                                     </ul>
@@ -232,10 +233,15 @@
                     <div class="col-sm-3">
                         <div class="d-flex flex-row align-items-center justify-content-end social-icons">
                             <ul class="social-icons list-inline">
-                                <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="ti ti-facebook"></i></a></li>
-                                <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Linkedin"><i class="ti ti-linkedin"></i></a></li>
-                                <li class="social-instagram"><a class="tooltip-top" target="_blank" href="#" data-tooltip="Google"><i class="ti ti-google"></i></a></li>
-                                <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#" data-tooltip="twitter"><i class="ti ti-twitter-alt"></i></a></li>
+                                <li class="social-facebook">
+                                    <a class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook">
+                                        <i class="ti ti-facebook"></i></a></li>
+                                <li class="social-twitter">
+                                    <a class="tooltip-top" target="_blank" href="#" data-tooltip="Linkedin">
+                                        <i class="ti ti-linkedin"></i></a></li>
+                                <li class="social-twitter">
+                                    <a class="tooltip-top" target="_blank" href="#" data-tooltip="twitter">
+                                        <i class="ti ti-twitter-alt"></i></a></li>
                             </ul>
                         </div>
                     </div>
